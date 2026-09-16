@@ -90,3 +90,67 @@ git commit --ammend
 git tag <tag_name> <commit>
 "marks commit as milestone"
 ```
+```bash
+git describe <ref>
+" output <tag><num_commits>g<hash>"
+```
+```bash
+git rebase main <branch_name>/<commit>
+"rebases commit to main"
+```
+```bash
+git branch <branchname> commit~^2^
+"create branchabove the merged branch"
+```
+
+## REMOTE REPOSITORY COMMANDS:-
+```bash
+git clone
+"copy from remote repository"
+```
+```bash
+git checkout o/main ; git commit
+"commits to main branch of remote repository"
+```
+```bash
+git fetch
+"fetches data from remote repository"
+```
+```bash
+git pull
+"updates the changes made"
+```
+```bash
+git FakeTeamwork
+"commits on main"
+```
+```bash
+git push
+"upload changes to remote repository"
+```
+```bash
+git pull --rebase
+"fetches and rebases"
+```
+```bash
+git checkout -b <branchname> o/main
+"creates branch to track o/main"
+```
+```bash
+git branch o/main <branchname>
+"creates branch to track o/main"
+```
+```bash
+git push origin <name>
+"pushes o/main to <name>"
+```
+```bash
+git push origin <source>:<destination>
+"<source>: what to push
+<destination>: where to push"
+```
+```bash
+git fetch origin <source>:<destination>
+"<source>: what to download
+<destination>: where to download"
+```
